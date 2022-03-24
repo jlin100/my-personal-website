@@ -1,4 +1,118 @@
 body {
-    background: blue;
+    background: rgb(250, 235, 238);
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HEADER */
+  
+  header {
+    background-color: black;
+    background-size: 100%;
+    background-position: center;
+    height: 70px;
+    padding: 20px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  a:hover {
+    text-decoration: underline;
+    color:rgb(127, 245, 229);
+  }
+
+  header .logo a {
+    background-image: url("image/Shop+Logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -30px;
+    width: 300px;
+  }
+
+  h1 {
+    background-image: url("Image/banner.jpeg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -999999999;
+    height:450px;
+    margin:0 0 0 0;
+    
 }
 
+button{
+    position:absolute;
+    width:200px;
+    height:50px;
+    top:35%;
+    left:47%;
+    color: white;
+    margin: -10px 0px 0px -50px;
+    padding: 20px 50px 40px 50px;
+    background: rgb(241, 196, 196);
+    border-color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  /* FEATURES */
+
+.features {
+    background: rgb(250, 235, 238);
+    color: rgb(216, 129, 146);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+  }
+  
+  .features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    background: black;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: rgb(255, 177, 177);
+    font-size: 15px;
+    padding: 30px 20px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  
