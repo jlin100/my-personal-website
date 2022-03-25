@@ -68,6 +68,11 @@ button{
     text-transform: uppercase;
 }
 
+button:hover {
+  text-decoration: underline;
+  background-color:rgb(127, 245, 229);
+}
+
 nav ul {
     margin: 0;
     padding: 0;

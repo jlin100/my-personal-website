@@ -1,4 +1,4 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+function myFunction() {
+    alert("SITE IS TEMPORARY OUT OF SERVICE :(");
+}
 
-document.querySelector("body").appendChild(h2);
